@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PORTFOLIO WEBSITE</title>
+
+        <!-- Stylesheet -->
+        <link rel="stylesheet" href="../css/style.css" />
+    <!--    Font Awesome-->
+    <script src="https://kit.fontawesome.com/ccf0b0f929.js" crossorigin="anonymous"></script>
+
+            <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+</head>
+<body>
+    <!-- Start of Navigation -->
+
+<!-- Drop-down menu will be a part of the main navbar - use it for selecting desired type of product.-->
+<section class="nav_BG">
+
+    <nav class="navbar navbar-expand-lg navbar-light ">
+
+        <div class="container-fluid">
+            <!-- Logo SVG Link -->
+            <a class="navbar-brand" href="../index.html"><img src="../img/nav/Logo-05.png" alt="" /></a>
+
+
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="../index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="../html/about.html">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="../html/portfolio.html">Portfolio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="../html/contact.html">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        
+    </nav>
+</section>
+
+<!-- End of Navigation -->
+<div class="container_contact">
+    <div style="text-align:center">
+      <h2>Contact Us</h2>
+      <p>Let's have a cup of coffee together, or leave us a message:</p>
+    </div>
+    <div class="row_contact">
+      <div class="column_contact">
+        <img src="../img/contact/contact.jpeg" style="width:100%">
+      </div>
+      <div class="column_contact">
+        <form action="/action_page.php">
+          <label for="fname">First Name</label>
+          <input type="text" id="fname" name="firstname" placeholder="Your name..">
+          <label for="lname">Last Name</label>
+          <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+          <label for="country">Country</label>
+          <select id="country" name="country">
+            <option value="australia">Australia</option>
+            <option value="canada">Canada</option>
+            <option value="usa">USA</option>
+          </select>
+          <label for="subject">Subject</label>
+          <textarea id="subject" name="subject" placeholder="Write something.." style="height:170px"></textarea>
+          <input type="submit" value="Submit">
+        </form>
+      </div>
+    </div>
+  </div>
+
+  <div class="row_contact_add">
+    <div class="lo" style="background-color:#606060;">
+        <span id="location"><i class="fas fa-map-marked-alt"></i></span>
+      <p id="location_text">2280 Ross Street, Toronto</p>
+    </div>
+    <div class="lo" style="background-color:#FD8F2E;">
+        <span id="phone"><i class="fas fa-phone-volume"></i></span>
+      <p id="phone_text">+1-613-555-0145</p>
+    </div>
+    <div class="lo" style="background-color:#606060;">
+        <span id="mail"><i class="fas fa-envelope-open-text"></i></span>
+      <p id="mail_text">abhisekh@designchef.com</p>
+    </div>
+  </div>
+
+  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d184552.57289885642!2d-79.51814217485051!3d43.7181556616664!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89d4cb90d7c63ba5%3A0x323555502ab4c477!2sToronto%2C%20ON!5e0!3m2!1sen!2sca!4v1628497109867!5m2!1sen!2sca" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+
+<footer>
+    <h3>LET'S COLLABORATE</h3>
+
+        <!-- Social Media Icons -->
+        <div class="social_media">
+            <i class="facebook-official w3-hover-opacity"></i>
+            <i class="fa fa-instagram w3-hover-opacity"></i>
+            <i class="fa fa-snapchat w3-hover-opacity"></i>
+            <i class="fa fa-pinterest-p w3-hover-opacity"></i>
+            <i class="fa fa-twitter w3-hover-opacity"></i>
+            <i class="fa fa-linkedin w3-hover-opacity"></i>
+        </div>
+
+            <!-- Copyright -->
+    <p class="copyright">&copy 2021 Copyright. All Rights Reserved. <br>
+        <a id="demo"></a>
+    </p>
+
+    <h5>Abhisekh Ravlekar</h5>
+
+</footer>
+
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+
+    <!-- You may use Bootstrap for this project. Use custom fonts and color scheme appropriate for given topic. Make the site pop! -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+</body>
+</html>
